@@ -122,3 +122,37 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+
+/* PORTFOLIO PAGE */
+.filter-button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: outset 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  outline: none;
+}
+.work-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.25;
+  letter-spacing: 0.06em;
+}
+
+.work-names {
+  color: var(--primary-bg-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
