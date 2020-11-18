@@ -1,29 +1,36 @@
 :root {
-  --primary-tex-color: #757575;
+  --primary-bg-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-bg-color: #2f303a;
 }
 
 body {
-  background-color: var(--primary-bg-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-tex-color);
   font-family: roboto, sans-serif;
 }
 
+/* STUDIO PAGE */
+
 ul {
   list-style: none;
 }
-.site-nav .link,
+
 .site-nav-contacts .link {
-  color: var(--title-text-color);
+  color: var(--primary-bg-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
@@ -34,18 +41,18 @@ ul {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -60,33 +67,58 @@ ul {
 .section-title {
   color: var(--title-text-color);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.section-title-description {
+.section-description {
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
-.section-title-about {
+.section-about {
   color: var(--title-text-color);
   font-size: 36px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-.section-title-team {
+.section-team {
   color: var(--title-text-color);
 }
 
-.section-title-names {
+.section-names {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.section-profession {
+  color: var(--primary-bg-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.footer-adress {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
